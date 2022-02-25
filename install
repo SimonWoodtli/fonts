@@ -1,6 +1,9 @@
-#!/bin/sh
-mkdir "$HOME/.local" 2>/dev/null
-mkdir "$HOME/.local/share" 2>/dev/null
-mkdir "$HOME/.local/share/fonts" 2>/dev/null
+#!/bin/bash
+## install fonts
+[[ -d $HOME/.local/share/fonts ]] || mkdir -p $HOME/.local/share/fonts
 target="$HOME/.local/share/fonts"
 cp ttf/* otf/* woff/* "${target}"
+
+## emoji support for alacritty
+[[ -d $HOME/.config/fontconfig ]] || mkdir -p $HOME/.config/fontconfig
+cp $PWD/fonts.conf $HOME/.config/fontconfig/
