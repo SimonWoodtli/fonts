@@ -4,9 +4,12 @@ A collection of all my fonts.
 
 ## Additional Fonts to Checkout
 
-* FiraCode: https://github.com/tonsky/FiraCode
+* [FiraCode] 
 
 ## Paid Fonts
 
-* Comic Code: https://www.myfonts.com/products/coding-essentials-with-ligatures-package-474367
-* Comic Code needs Patch: https://github.com/ryanoasis/nerd-fonts#font-patcher
+* [Comic Code] needs to be patched with [nerd-fonts]
+
+[FiraCode]<https://github.com/tonsky/FiraCode>
+[Comic Code]<https://www.myfonts.com/products/coding-essentials-with-ligatures-package-474367>
+[nerd-fonts]<https://github.com/ryanoasis/nerd-fonts#font-patcher>
