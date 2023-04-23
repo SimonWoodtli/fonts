@@ -1,6 +1,13 @@
 # My Font Collection
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fonts)](https://artifacthub.io/packages/search?repo=fonts)
+
 A collection of all my fonts.
+
+## Installation
+
+1. Local install: clone repo and run install script
+2. CI/Image install: `COPY --from=ghcr.io/SimonWoodtli/fonts:latest /fonts /where/You/Want`
 
 ## Additional Fonts to Checkout
 
