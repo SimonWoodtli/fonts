@@ -7,7 +7,7 @@ A collection of all my fonts.
 ## Installation
 
 1. Local install: clone repo and run install script
-2. CI/Image install: `COPY --from=ghcr.io/SimonWoodtli/fonts:latest /fonts /where/You/Want`
+2. CI/Image install: `COPY --from=ghcr.io/simonwoodtli/fonts:latest /fonts /where/You/Want`
 
 ## Additional Fonts to Checkout
 
