@@ -1,4 +1,4 @@
 FROM scratch
-COPY otf/* /fonts
-COPY ttf/* /fonts
-COPY woff/* /fonts
+COPY otf/* /fonts/
+COPY ttf/* /fonts/
+COPY woff/* /fonts/
